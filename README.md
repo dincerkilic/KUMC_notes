@@ -54,6 +54,16 @@ Then,
 
 **ssh remote_username@remote_host**
 
+**git-fat**: a tool for managing large binary files in git repositories.
+
+**git fat init**: initialize the repository. 
+
+**git fat push**: remember to push it to the fat store.
+
+**git fat pull**: 
+
+
+
 
 
 

@@ -22,3 +22,5 @@
 At the bottom part of tmux window: [0]: this is the session name. By default, they’re numbered, starting with zero. 0:bash*: the 0 indicates this is the first window in this session.
 
 Reach to server: **ssh tenor.ifx.kumc.edu**
+
+**ssh-keygen**: ssh-keygen is a tool for creating new authentication key pairs for SSH. Such key pairs are used for automating logins, single sign-on, and for authenticating hosts.

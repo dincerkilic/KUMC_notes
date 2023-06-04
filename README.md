@@ -23,4 +23,4 @@ At the bottom part of tmux window: [0]: this is the session name. By default, th
 
 Reach to server: **ssh tenor.ifx.kumc.edu**
 
-**ssh-keygen**: ssh-keygen is a tool for creating new authentication key pairs for SSH. Such key pairs are used for automating logins, single sign-on, and for authenticating hosts.
+**ssh-keygen**: an SSH key is used to access a remote server through an SSH connection. The keys come in pairs, a public key and a private key. The public key is kept within the server and the private key is with the user or the client.

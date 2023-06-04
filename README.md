@@ -1,7 +1,8 @@
 # KUMC
 
 
-**June_1_2023
+**June_1_2023**
+
 **sudo apt-get update**:upgrade command downloads and installs the updates for each outdated package and dependency on your system.
 
 **sudo apt-get install xxx**:command is used to download the latest version of your desired application from an online software repository pointed to by your sources.

@@ -21,13 +21,7 @@
 
 At the bottom part of tmux window: [0]: this is the session name. By default, they’re numbered, starting with zero. 0:bash*: the 0 indicates this is the first window in this session.
 
-Reach to server: **ssh tenor.ifx.kumc.edu**
-
-**ssh-keygen**: an SSH key is used to access a remote server through an SSH connection. The keys come in pairs, a public key and a private key. The public key is kept within the server and the private key is with the user or the client.
-
-A public key that is copied to the SSH server(s). 
-
-A private key that remains (only) with the user.
+Log in to server: **ssh tenor.ifx.kumc.edu**
 
 **Setting Up Public Key Authentication for SSH**
 
@@ -40,3 +34,27 @@ The following simple steps are required to set up public key authentication (for
 3.Server stores the public key (and "marks" it as authorized).
 
 4.Server will now allow access to anyone who can prove they have the corresponding private key.
+
+SSH keys should be generated on the computer you wish to log in from. This is usually your local machine.
+
+**ssh-keygen**: an SSH key is used to access a remote server through an SSH connection. The keys come in pairs, a public key and a private key. The public key is kept within the server and the private key is with the user or the client.
+
+You may be prompted to set a password on the key files themselves, but this is a fairly uncommon practice, and you should press enter through the prompts to accept the defaults. Your keys will be created at ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa
+
+A public key that is copied to the SSH server(s). 
+
+A private key that remains (only) with the user.
+
+**id_rsa** private key
+**id_rsa.pub** public key
+
+Send the public key to the remote server:
+**ssh-copy-id user@server-ip**
+Then,
+
+**ssh remote_username@remote_host**
+
+
+
+
+

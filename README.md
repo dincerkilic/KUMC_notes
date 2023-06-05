@@ -70,7 +70,9 @@ Then,
 
 **git push origin master**: upload files to github. To be able to do that you need to make github to recognize your machine. Create ssh key. Add it to github (github.com > settings > SHH and GPG keys). master is branch that we want to push to.
 
-**git init**: to initialize on local the git, then continue with add, and commit. Create a repository on github. Then **git remote add origin xx.git**. Then pudh.
+**What if you create a folder on local first?**
+
+Create a folder, change directory into it; then, **git init**: to initialize on local the git, then continue with add, and commit. Create a repository on github. Then **git remote add origin xx.git**. Then push.
 
 *more info on github: https://www.youtube.com/watch?v=RGOj5yH7evk 
 

@@ -68,9 +68,9 @@ Then,
 
 **git commmit -m "message"**: save changes.
 
-**git push origin master**: upload files to github. To be able to do that you need to make github to recognize your machine. Create ssh key. Add it to github (github.com > settings > SHH and GPG keys). master is branch tat we want to push to.
+**git push origin master**: upload files to github. To be able to do that you need to make github to recognize your machine. Create ssh key. Add it to github (github.com > settings > SHH and GPG keys). master is branch that we want to push to.
 
-**git init**: to initialize on local the git, then continue with add, and commit.
+**git init**: to initialize on local the git, then continue with add, and commit. Create a repository on github. Then **git remote add origin xx.git**. Then pudh.
 
 *more info on github: https://www.youtube.com/watch?v=RGOj5yH7evk 
 

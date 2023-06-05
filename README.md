@@ -72,7 +72,7 @@ Then,
 
 **git init**to initialize on local the git, then continue with add, and commit.
 
-*more source on github: https://www.youtube.com/watch?v=RGOj5yH7evk 
+*more info on github: https://www.youtube.com/watch?v=RGOj5yH7evk 
 
 
 

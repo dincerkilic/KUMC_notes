@@ -60,9 +60,17 @@ Then,
 
 **git fat push**: remember to push it to the fat store.
 
-**git fat pull**: 
+**git fat pull**
 
+**git clone xx.git**: clone the repository.
 
+**git add file_name**: add to github
+
+**git commmit -m file_name** save changes
+
+**git push origin** upload files to github
+
+**git init**to initialize on local the git, then continue with add, and commit
 
 
 

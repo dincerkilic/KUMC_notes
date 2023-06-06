@@ -96,6 +96,7 @@ Store outputs in `out` folder.
 
 **find . -name "file_name"**: to find the location of the file.
 
+Add mermaid plot to Rmd
 ```{r}
 DiagrammeR::mermaid("
 graph LR;

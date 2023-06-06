@@ -76,7 +76,7 @@ Create a folder, change directory into it; then, **git init**: to initialize on 
 
 *more info on github: https://www.youtube.com/watch?v=RGOj5yH7evk 
 
-**2023_July_5
+**2023_July_5**
 
 git fat the RDS.
 

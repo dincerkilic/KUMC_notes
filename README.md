@@ -1,7 +1,7 @@
 # KUMC
 
 
-**June_1_2023**
+**2023_June_1**
 
 **sudo apt-get update**:upgrade command downloads and installs the updates for each outdated package and dependency on your system.
 
@@ -75,6 +75,26 @@ Then,
 Create a folder, change directory into it; then, **git init**: to initialize on local the git, then continue with add, and commit. Create a repository on github. Then **git remote add origin xx.git**. Then push.
 
 *more info on github: https://www.youtube.com/watch?v=RGOj5yH7evk 
+
+**2023_July_5
+
+git fat the RDS.
+
+To get it:
+
+**git fat init**
+
+**git fat pull xx.RDS**
+
+**hard link**: to duplicate the file. -s symboilic link addition. To synchronize two files. -r link from relative path.
+
+Store RDS in `in` folder.
+
+Store outputs in `out` folder.
+
+**file file_name** to find info of the file.
+
+**find . -name "file_name"**: to find the location of the file.
 
 
 

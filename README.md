@@ -96,7 +96,14 @@ Store outputs in `out` folder.
 
 **find . -name "file_name"**: to find the location of the file.
 
-
+```{r}
+DiagrammeR::mermaid("
+graph LR;
+A(fastqs) --> B(Seurat all);
+ B -->C(Oligo only)
+ C -->D(WT-prkcz_prkci)
+")
+```
 
 
 

@@ -62,7 +62,7 @@ Then,
 
 **git fat pull**
 
-**git clone xx.git**: clone the repository.
+**git clone xx.git**: clone the repository
 
 **git add file_name**: to let git to track file.
 

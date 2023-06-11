@@ -106,5 +106,7 @@ A(fastqs) --> B(Seurat all);
 ")
 ```
 
+siteden değişiklik
+
 
 

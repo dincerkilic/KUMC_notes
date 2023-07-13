@@ -105,8 +105,7 @@ A(fastqs) --> B(Seurat all);
  C -->D(WT-prkcz_prkci)
 ")
 ```
-
-siteden değişiklik
+link .md file to README.md file: `ln -rs xxx.md README.md` for github
 
 
 
